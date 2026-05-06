@@ -1,0 +1,4 @@
+# NUMERICAL SIMULATION OF HOMOGENEOUS CHARGE COMPRESSION IGNITION COMBUSTION FUELED WITH DIMETHYL ETHER
+
+HCCI (Homogenous Charge Compression Ignition) combustion has advantages in terms of efficiency and reduced emission. HCCI combustion can not only ensure both the high economic and dynamic quality of the engine, but also efficiently reduce the NOx and smoke emission. Moreover, one of the remarkable characteristics of HCCI combustion is that the ignition and combustion process are controlled by the chemical kinetics, so the HCCI ignition time can vary significantly with the changes of engine configuration parameters and operating conditions
+
