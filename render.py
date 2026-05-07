@@ -267,7 +267,7 @@ CSL_CHOICES = {
 
 def render_docx(pandoc: str, src: Path, lang: str = "zh", csl: str = "numeric") -> None:
     ref = HERE / "template" / (
-        "中文毕业设计模板260501.docx" if lang == "zh"
+        "中文毕业设计模板260507.docx" if lang == "zh"
         else "英文毕业设计模板250928.docx"
     )
     out = OUT_BASE.with_suffix(".docx") if lang == "zh" else OUT_BASE.with_name(OUT_BASE.name + "_en").with_suffix(".docx")
@@ -448,7 +448,7 @@ def _postprocess_docx(path: Path) -> None:
     # 9) Inject template §1 verbatim (cover + English cover + originality &
     #    authorization statements), applying field substitutions from
     #    101-setup.md. Replaces everything pandoc rendered before §2.
-    template_doc = HERE / "template" / "中文毕业设计模板260501.docx"
+    template_doc = HERE / "template" / "中文毕业设计模板260507.docx"
     setup_md = HERE / "101-setup.md"
     if template_doc.is_file() and setup_md.is_file():
         _inject_template_section1(

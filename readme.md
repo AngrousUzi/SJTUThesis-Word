@@ -126,7 +126,7 @@ SJTUThesis-Word/
 │   └── 303-data/              # 按章节组织的子目录
 │
 ├── template/                  # Word 参考模板（定义全部样式）
-│   ├── 中文毕业设计模板260501.docx
+│    ├── 中文毕业设计模板260507.docx
 │   └── 英文毕业设计模板250928.docx
 │
 └── SJTUThesis.docx            # 渲染输出
@@ -258,7 +258,7 @@ $$
 
 ### Q: 我想修改 Word 模板样式怎么办？
 
-**A:** 直接修改 `template/中文毕业设计模板260501.docx` 中的样式定义（字体、行距、缩进等）。`render.py` 使用 `--reference-doc` 参数继承模板的全部样式。
+**A:** 直接修改 `template/中文毕业设计模板260507.docx` 中的样式定义（字体、行距、缩进等）。`render.py` 使用 `--reference-doc` 参数继承模板的全部样式。
 
 ### Q: 能生成 PDF 吗？
 
